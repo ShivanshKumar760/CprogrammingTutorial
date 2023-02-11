@@ -1,0 +1,78 @@
+Sometimes We want to watch comedy videos on youtube if the day is sunday 
+sometimes we order junk food if it is our friends birthday 
+sometimes we might want to buy an umbrella if its raining and you have the money
+you order the meal if dal or your favroite bhindi is listed on the menu.
+
+All above the above are some decisions which depend on a condition being met .
+In c language too , we must be able to execute instructions on a condition being met.
+
+Decision Making instruction in C:
+->if-else statement or if-else if-else statement
+->switch case
+
+I)if - else statement
+The syntax of an if-else statement in C looks like;
+    if(condition to be checked)
+    {
+        //if true then this block of code will be executed
+        stmt ;
+    }
+    else{
+        //if the condition passed under if() is not true then 
+        //this block of code will be executed
+    }
+
+    Example:
+    int a=23;
+    if(a>18)
+    {
+        printf("You can drive\n");
+    }
+
+    NOTE:that else statement is optional it not necessary to add.
+
+II)else if statement 
+Instead of using multiple it statements ,we can also use else if along with if thus forming an 
+if-else-if block.
+
+if(condition1)
+{
+    //stmt;
+
+}
+else if(condition2)
+{
+    //stmt;
+}
+else
+{
+    //default statement
+}
+
+using if-else if-else reduces indents.The last else is optional
+Also there can be any number of "else if"
+
+last else is executed only if all conditions fail.
+
+III)ternary operator
+
+condition?expression-if-true ; expression-if-false
+
+IV)Switch case
+Switch case is used when we have to make a choice between number and alternative for a given variable
+
+switch (integer value)
+{
+    case c1:
+        code;
+    case c2:
+        code;
+    .
+    .
+    .
+    .
+    default:
+        code;
+}
+The value of integer-value is matched against c1,c2...n .If it is match any of these case that case 
+along with its code will be executed

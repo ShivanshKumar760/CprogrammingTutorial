@@ -1,0 +1,18 @@
+An Escape Sequence in C language is a Sequence of character that dosent represent itself when uses inside 
+string literal or character
+
+it is composed of two or more character starting with backslash \.For example \n represent new line shifting.
+
+*List of Escape Sequence in C language are:
+
+Escape Sequence       |           Memory 
+
+1)\a                        alarm or beep
+2)\b                        backspace
+3)\f                        form feed
+5)\n                        new line
+6)\r                        carriage return
+7)\t                        tab(Horizontal)
+8)\v                        Vertical tab
+9)\\                        backslash
+10)\'                       single quote

@@ -1,0 +1,29 @@
+Minimum field width specifier :
+
+Suppose we want to display an output that occupies the minimum number of spaces on the screen.We can achieve this by displaying
+an integer number after the percentage sign of the format specifier .
+
+int main()
+{
+    int x=900;
+    printf("%8d\n",x);
+    printf("%-8d\n",x);
+}
+
+output:
+_____900--so o/p should take 8 space to display the number of so since number is already 3 digit it will add 5 space before it
+900
+
+Explanation:
+In above program ,%8d specifies display the value  after 8 space occupency including the(space and number).While %-8d will make
+a value left aligned.
+
+TO fill empty space:
+
+int main()
+{
+    int x=12;
+    printf("%08d\n",x);
+}
+
+in above program,%08d means that the empty space is filled with 0.

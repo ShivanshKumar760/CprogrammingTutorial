@@ -1,0 +1,48 @@
+format specifier 
+
+format specifier are used to take input and output for specified datatype.They are in string ie double quoted enclosed and They
+are also know as format string and determine the format of the input and output.
+
+format specifier                                Detail
+1)%d or %i                          it is used to print the signed integer value where signed integer means that the variable
+                                    can hold both positive and negative values.
+
+
+2)%u                                it is used to print the unsigned integer value where unsigned integer means
+                                    that the variable can hold only positive value.
+
+                                
+3)%x                                it is used to print the hexadecimal unsigned integer value where integer value always 
+                                    starts with the 0x value .In this alphabetical character used in hexadecimal notation
+                                    are printed in the small letter format such as a,b,c etc.
+
+
+4)%X                                it is used to print the hexadecimal unsigned integer ,but %X print or take inputs the 
+                                    capital  letter alphabets ex:A,B,C as hexadecimal representation.
+                                
+                    
+
+5)%o                                an octal number integer format specifier that is with base 8 number 
+
+6)%p                                prints the address of the variable (for pointer we use %p)
+
+7)%n                                prints nothing 
+
+8)%hi                               prints short integer number 
+
+9)%hu                               prints short unsigned integer number
+
+10)%f                              it is used to print the decimal floating point number value .By default it prints after(".")
+
+11)%ld                             it is used to print print the long signed integer value.
+
+12)%c                              it is used to print the unsigned character
+
+13)%s                              it is used to print the strings
+
+14)%lf n                           it is used to print the double data type ie large decimal number
+
+15)%Lf                             it is used to print long double data type
+
+16)%e or %E                        used for representing floating point scientific notation.
+ 

@@ -1,0 +1,30 @@
+Whats a variable ?
+A Variable is a container to store a value in the program ,A variable in 
+C or C++ or in any programming language are the named object for the 
+memory address ie variable name points to memory address.
+
+HOW TO DECLARE A VARIABLE IN C
+
+So firstly variable comes under the category of identifer ie user define
+values or object like functionn,variable or structure.
+
+So the rule for naming identifier is same for all :-
+1.A variable name should start with a letter or underscore
+and not number or any other special characters.
+
+2.A variable name should only include letters (a-z,A-Z),number or 
+underscore no special character like &,(),! etc...
+
+3.Variable are case sensitive ie name is not same as NAME or Name.
+
+4.Keyword ie program reserved words cannot be used as variables.
+
+Now to declare a variable in C,syntax is:
+
+        datatype variable_name;
+
+        example:
+            int a;
+
+
+

@@ -1,0 +1,12 @@
+Specifying Precision :
+------------------------
+We can print and input any number / float number with precision of there decimal point via specifying ('.')dot operstor which 
+is followed by the integer and decimal point specifier.
+
+Example:
+
+float x=12.2;
+printf("%.2f", x);---print x till 2 number after decimal point ie 2 decimal precision point
+
+output:
+12.20

@@ -1,0 +1,2 @@
+Q3.
+Write a program to find whether a year feeded into program is a leap year or not.

@@ -1,0 +1,7 @@
+PROGRAM TO CHECK IF A GIVEN YEAR IS LEAP YEAR .
+
+A year is a leap year if the following is statisfied :
+
+1.The year is multiple of 400
+or
+2.The year is a multiple of 4 and not a multiple of 100

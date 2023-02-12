@@ -1,0 +1,73 @@
+            LOOP CONTROL INSTRUCTIONs
+
+Why Loops?
+SomeTimes we want our program to execute few set of instruction over and over again for example 
+printing 1 to 100 or first 100 even number etc.
+
+Hence Loops make it easy for a programmer to tell the computer that a given set of instruction
+must be executed repeatedly for a given condtion proves to be false
+
+Types of Loops:
+1)While loop
+2)For Loop
+3)Do-While loop
+-------------------------------------------------------------------------------------------------
+Syntax for While loop:
+
+while(condition)
+{
+    stmt;
+    updation;
+}
+
+Example:
+int i=0;
+while(i<=10)
+{
+    printf("The value of i is %d\n", i);
+    i++;
+}
+this will print the value of i --10X SomeTimes
+
+Note:if the condition never becomes false ,then the while loop keeps getting executed .Such a loop
+or type of loop is known as infinite loop.
+----------------------------------------------------------------------------------------------------
+II)
+do-while loop syntax:
+
+do
+{
+    code;
+    updation;
+}while(condition);
+
+do while loop is very similar to while loop .
+While loop-checks the condition and then execute the code inside of it.
+
+do while-execute to code inside it and then checks the condition.
+
+NOTE:do while loop is the only loop which executes at least one timem even if the condition is 
+false.
+-----------------------------------------------------------------------------------------------------
+
+III)for loop synatx:
+
+for(initalize;test/condition;updation)
+{
+    code;
+}
+
+1)initalize-is setting up a loop counter to an inital value 
+2)condition or test--checking up the required condition to run the loop
+3)updation--updating the loop counter via increment or decrement
+
+Example:
+
+for(int i=0;i<3;i++)
+{
+    printf("%d\n",i);
+}
+output:
+0
+1
+2

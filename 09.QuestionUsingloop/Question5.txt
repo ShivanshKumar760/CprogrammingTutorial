@@ -1,0 +1,4 @@
+Question4:
+Write the same program as question4 ie to print the sum of first n natural number using
+for and do while loop.
+

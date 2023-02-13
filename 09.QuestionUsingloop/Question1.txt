@@ -1,0 +1,6 @@
+Question1
+Print all even number till a given number n.
+
+Explanation:
+Suppose n=5
+total Even number will be = 2,4 ie two

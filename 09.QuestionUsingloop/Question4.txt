@@ -1,0 +1,2 @@
+Question4 :
+Write a program to sum first ten natural number using while loop.

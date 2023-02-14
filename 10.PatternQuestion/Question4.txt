@@ -1,0 +1,6 @@
+Q4.Using loop draw the pattern
+    *
+   **
+  ***
+ ****
+*****

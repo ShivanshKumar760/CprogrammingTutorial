@@ -1,0 +1,7 @@
+Q1.Using Loop draw a pattern :
+*
+**
+***
+****
+
+also known as half pyramid.

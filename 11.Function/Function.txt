@@ -1,0 +1,63 @@
+C function 
+
+Sometimes our program gets bigger in size and its not possible for a programmer to track which peice of code is doing what
+Function is a way to break our code into chunks so that it is possible for a programmer to reuse them.
+
+What is function?
+A function is a block of code which performs a particular task.A function can be reused by the programmer in a give program  any
+number of times
+
+Syntax of function :
+
+function_type<data_type of function> function_name(parameters)
+{
+    //block of code;
+}
+
+Example of function :
+
+void display()//function declaration
+
+----------------------------------------------
+{                                            |
+    printf("Hi iam display function");       |---------------------->function defination
+}---------------------------------------------
+
+int main()
+{
+    display();//calling function
+}
+
+NOTE:
+    Before using a function its important that function is declared and defined or else it will declare error
+
+But in case we want to use function later on want to define it later according to our program or maybe we forgot to define a
+function block in that case its important that we declare the function first and use the function later.This is known as 
+function prototype.
+
+void display();//just declaring a function that is function prototype
+
+int main()
+{
+    display();//calling function 
+    //now display function is not defined but it declared so flow of control or compiler will serach for first function declaration
+    //and when found it will serach for it defination
+}
+//function defination
+void display()
+{
+    printf("hi");
+}
+
+I)Function prototype:
+Function prototype is a way to tell the compiler about the function we are going to define in the program later on.
+
+II)Function Call:
+Function call is a way to tell the compiler to execute the function body at the time  when function call is made .
+
+Note:The program execution starts from the main block or main function in the sequence the instruction  are written .
+
+III)Function defination:
+This part contains the exact set of instructions which are need to be excuted during the function call.When a function is called
+from main(),the main function falls asleep and gets temporarily suspended.During this time the control goes to the function
+being called.When the function is done executing main() block resumes.

@@ -1,0 +1,5 @@
+Q3.Write a program using function to print the pattern
+*
+**
+***
+****

@@ -1,0 +1,3 @@
+Q2.Write a function that will convert celsius to fahrenheit :
+
+formula F=(C*(9/5))+32

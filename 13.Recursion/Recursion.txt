@@ -1,0 +1,46 @@
+Recursion:
+
+Recurssion is the process which comes into existence when a function call a copy of itself to
+work on a smaller problem.Any function which calls itself is called recursive function ,and such 
+function calls are called recursive calls.Recursion involves several number of recursive calls 
+.However it is important to impose a termination condition of recursion .Recursion code is shorter
+then iterative code However sometimes it may be difficult to understand.
+
+Recursion cannot be applied to all the problem,but it is more useful for the tasks that can be 
+defined in terms of similar subtask.For  example,recursion may be applied to sorting,searching and
+traversal problems.
+
+Generally,iterative solution are more efficient then recursion since function call is always overhead.Any 
+problem that can be solved using recursion can also be solved using iteration ie loop.
+
+
+However,some problem are best suited to be solved by the recursion ,for example tower of hanoi,
+Fibonacci series,Factorial finding,etc.
+
+Example of Recursion:
+
+A very good example of recursion is finding factorial.
+
+factorial(n)=1*2*3*4.............*n
+
+1*2*3*4*5........*(n-1)*n
+|                   |
+---------------------     
+(factorial(n-1))*n
+
+we can write :factorial(n)=factorial(n-1)*n
+ now this factorial(n-1) will call again factorial function with n-1 parameter
+factorial(n)=factorial(n-1)*n
+factorial(n-1)=factorial(n-1-1)*n-1
+factorial(n-2)=factorial(n-2-1)*n-2
+.
+.
+.
+.
+.
+factorial(1)=return 1//base condition where recursion needs to stop
+
+
+
+
+

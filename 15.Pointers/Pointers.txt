@@ -1,0 +1,37 @@
+A pointer is a variable which stores the address of the another variable
+
+i
+[value:72]
+address of i:87499----------->we can store adrress of i in variable j:j
+                                                                      [87499]
+                                                                      address of j:87501
+
+
+so j is the pointer here ie j points to i
+
+the adrress of-(&) operator  is used to obtain the address of a given variable 
+
+so if we refer :&i --it points to i address ie 87499
+
+Format specifier for printing address is :'%u'
+
+The value of address(*)operator is used to obtain the value present at a given memory address.it is 
+denoted by *
+
+*(&i)=72
+
+
+How To Declare a Pointer:
+
+A pointer is declared using the following syntax:
+ int *j;
+ j=&i;
+
+ie datatype_of_the_variable_whose_address_is_Stored *variable_name=&variable_whose_address_is_needed;
+
+Just like pointer of type integer ,we also have pointer to char,float etc
+
+int *ptr----points to integer
+char *ptr----points to character
+float *ptr----points to float
+

@@ -1,0 +1,47 @@
+Type of function call:
+
+Based on the way we pass the argument or parameter to the function that tell us about the Type
+of function being called
+
+1.Call by value:sending the value of the argument
+2.call by reference:Sending the address of the argument
+
+*CALL BY VALUE:
+------------------
+So basically in call by value concept we call a function via passing arguments value ie
+the value passed to function will get altered / modified only during function call and will
+not reflect changes in the main block
+
+ex:
+
+int add1(int a)
+{
+    return a + 1;
+}
+int main(void)
+{
+    int a = 1;
+    printf("%d\n", add1(a));//here we are passing a's value to add1() function which will add 1 to 
+    //a's value but this modified value of a will only be printed on screen when the function is 
+    //called
+    printf("%d\n",a)
+    //so now when we will try to print the value of a it will remain 1 only and will not print 2
+    //cause we only passed a value to function and not varibale a itself 
+}
+
+*CALL BY REFERENCE:
+--------------------
+Here in call by reference we actually pass the address of varibale to function so changes done
+to varibale inside the function will get reflected in main block
+
+Syntax:
+
+datatype_of_function function_name(datatype *argument)
+{
+    //code
+
+}
+int main()
+{
+    function_call(&varibale_name)
+}

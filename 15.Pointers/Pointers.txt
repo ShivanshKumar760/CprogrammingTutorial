@@ -9,7 +9,7 @@ address of i:87499----------->we can store adrress of i in variable j:j
 
 so j is the pointer here ie j points to i
 
-the adrress of-(&) operator  is used to obtain the address of a given variable 
+the address of-(&) operator  is used to obtain the address of a given variable 
 
 so if we refer :&i --it points to i address ie 87499
 

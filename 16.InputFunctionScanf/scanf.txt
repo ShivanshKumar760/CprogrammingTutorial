@@ -1,0 +1,10 @@
+SCANF:
+
+so in C scanf is a input function written in header stdio.h file now its just like printf but it
+uses the concept of address
+
+SYNTAX:
+
+scanf("%formatspecifier",&variable_for_which_we_need_input)
+
+the address of-(&) operator  is used to obtain the address of a given variable 

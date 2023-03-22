@@ -1,0 +1,11 @@
+Q1.Write a program to print the address of a variable .Use this address to print the value of 
+this variable
+
+Ans:-
+int main()
+{
+    int variable1=78;
+    int *pointerOfVaraible1= &variable1;
+    printf("Address of variable 1 is =%u\n", pointerOfVaraible1);
+    printf("Value of variable 1 is =%i\n",*pointerOfVaraible1);
+}

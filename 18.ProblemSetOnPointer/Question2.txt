@@ -1,0 +1,2 @@
+Q2.Write a program having a variable i .Print the address of i.Pass the variable to a function
+and print its address

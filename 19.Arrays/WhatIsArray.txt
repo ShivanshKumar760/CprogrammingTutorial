@@ -1,0 +1,118 @@
+Array:-
+------------------
+An array is a collection of similar elements .
+
+we can look array as 
+    One variable => Capable of storing multiple value.
+
+Synatx
+----------
+The syntax of decalring a variable is or synatx of a variable declaring looks like this:
+    int marks[10];
+    ---
+     |
+     |
+      ->datatype of array 
+
+    int marks[10];
+        -----
+          |
+          |
+          |
+           ->name of array identifier
+    
+
+    int marks[10];
+              |
+              ------>size of array ie total number of elemnts to be inserted
+            
+
+ datatype_of_array name_of_array[size];
+
+ *arrays can be of int ,char ,float
+
+ *arrays elements are enclosed in curly brackets {}
+
+ *array elements can be accessed by the concept of indexing 
+
+ What is indexing ?
+
+ sol:-Like in books where index is a page where every chaptered is numbered to access them easily
+ indexing also refers to numbering of elements in the array 
+
+ In Computer sci programming language most of the language have indexing number starting from
+ 0 ie first elements in array is marked as number 0
+
+ int num[5]={1,2,3,4,5}
+ { 1  ,   2   , 3    ,  4   ,5}
+   0      1     2       3    4----index value 
+
+   so we want to access 3rd elements in array num we will write/type
+
+number[2];
+
+syntax of accessing elements:array_name[elementpositiontoaccess-1] or array_name[index]
+
+
+*Accessing Elements in an array 
+------------------------------------
+Elements of an array can be accessed using the following syntax:
+
+a)input
+-----------
+scanf("%d",&marks[indexno.]);
+
+b)output
+----------
+printf("%d",marks[indexno]);
+
+*Initalize an array 
+--------------------
+There are many other ways in which an array can be initialized 
+
+int cgpa[3]={9,8,7}
+
+or 
+
+int cgpa[]={9,8,7}//now if we see that the sixe of array is not specified in the declare statement
+//thats cause the total number of elements in the array are initialized while declaring 
+
+
+Note :But its important to declare the size of the array when we have not initialized its value 
+while decalring it or when we have to take input.
+
+
+*Array in memory 
+-------------------
+Consider the array :
+int arr[3]={1,2,3}==>1 integer =4 bytes ie 1 integer will take 4 bytes of memory
+
+so array of size 3 of integer datatype will occupy 4*3=12 bytes of memory
+
+*Accessing the array  using pointers 
+------------------------------------
+consider this array
+  [ 7  |   9    |    2    |    8     |     1 ]
+   0       1         2         3          4   ----------index value
+   |
+   |
+   |->when we will print &arr it will always give the address of element on first index
+
+
+#if pointer ptr points to address of first index 0 then ptr++ will point to address of second 
+index is 1 and so on...
+
+We can have an integer pointer pointing to first element like this:
+
+  int *ptr = &arr[0];
+  or 
+  int *ptr = &arr;
+
+
+
+*Passing array to function
+------------------------
+Array can be passed to the  function like this :
+
+void printArray(int *ptr,int n) where int n is the size of the array
+

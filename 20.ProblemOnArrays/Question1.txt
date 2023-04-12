@@ -1,0 +1,1 @@
+Q1.Write a program to accept marks of five students in an array and print them to the screen .

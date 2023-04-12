@@ -38,7 +38,8 @@ The syntax of decalring a variable is or synatx of a variable declaring looks li
  What is indexing ?
 
  sol:-Like in books where index is a page where every chaptered is numbered to access them easily
- indexing also refers to numbering of elements in the array 
+ indexing also re
+ fers to numbering of elements in the array 
 
  In Computer sci programming language most of the language have indexing number starting from
  0 ie first elements in array is marked as number 0
